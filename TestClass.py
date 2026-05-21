@@ -11,6 +11,9 @@ class Libro:
     def setHojas(self, h):
         self.hojas = h  
 
+    def setNombre(self, n):
+        self.nombre = n
+        
     def setTamaño(self, t):
         self.tamaño = t
 
