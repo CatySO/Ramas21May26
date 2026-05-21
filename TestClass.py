@@ -11,5 +11,8 @@ class Libro:
     def setHojas(self, h):
         self.hojas = h  
 
+    def setTamaño(self, t):
+        self.tamaño = t
+
     def __str__(self) -> str:
         return("Libro " + str(self.nombre) + " de tamaño " + str(self.tamaño) + " y de color " + str(self.__color))   
